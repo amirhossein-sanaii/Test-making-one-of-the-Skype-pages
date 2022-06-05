@@ -1,0 +1,165 @@
+body{
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+}
+.div-main{
+    display: flex;
+}
+
+.div-main-one{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+.div-main-tow{
+    width: 50%;
+    height: 100px;
+    font-size: 40px;
+    margin-left: 35px;
+}
+
+
+.div-main-three{
+    width: 15%;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 240px;
+}
+
+.div-main-three button{
+    color: rgb(38, 144, 243);
+    background-color: #fff;
+    border: solid 2px rgb(38, 144, 243);
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.text-para{
+    color: gray;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.sec2-div-main{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+.show-description-left{
+    width: 45%;
+    margin: auto;
+    border: rgb(180, 178, 178) solid 3px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.show-description-left p{
+    text-align: left;
+    color: gray;
+    padding-bottom: 20px;
+}
+.show-description-right{
+    width: 45%;
+    margin: auto;
+    border: rgb(180, 178, 178) solid 3px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.show-description-right p{
+    text-align: left;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.more-btn{
+    color: #fff;
+    background-color: rgb(38, 144, 243);
+    border: solid 2px rgb(38, 144, 243);
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    text-align: center;
+}
+.a-not-underline{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .div-main{
+        display: block;
+        width: 80%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .div-main-one{
+        width: 100px;
+        border-radius: 50%;
+        align-items: center;
+    }
+
+    .div-main-tow{
+        width: 50%;
+        font-size: 20px;
+        margin:auto;
+        text-align: center;
+    }
+
+    .div-main-three{
+        width: 15%;
+        display: block;
+        margin:auto;
+    }
+    
+    .div-main-three button{
+        color: #fff;
+        background-color: rgb(38, 144, 243);;
+        border: solid 2px rgb(38, 144, 243);
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .text-para{
+        color: gray;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .sec2-div-main{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .show-description-left{
+        width: 90%;
+        margin: auto;
+        border: rgb(180, 178, 178) solid 3px;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .show-description-right{
+        width: 90%;
+        margin: auto;
+        border: rgb(180, 178, 178) solid 3px;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    
+
+  }
